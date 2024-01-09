@@ -1,0 +1,199 @@
+/* common shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    color: #181818;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 40px;
+    line-height: normal;
+}
+nav > ul{
+    display: flex; 
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+nav a {
+    text-decoration: none; 
+    color: #474747; 
+}
+
+.text-primary{
+    color: #ff0c0c;
+}
+.btn{
+    border-color: azure;
+    border-radius: 5px;
+    background-color: #ff0c0c;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+}
+/* header related style */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-memphis-playful-portfolio-pink-image_593418.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+}
+.banner .profile-pic {
+    width: 35%;
+    justify-content: space-between;
+
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+
+}
+.banner-title{
+    font-size: 70px;
+    font-weight: 800;
+
+}
+.banner-description{
+    padding-bottom: 25px;
+}
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: floralwhite;
+    margin: 130px 0px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.about-info{
+    text-align: center;
+}
+#What-I-do-description{
+    padding: 30px 150px;
+
+}
+/* skills related styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: rgb(233, 213, 213);
+    box-shadow: 0px 6px 50px 0px red;
+    
+}
+.skill-icon{
+    width: 20%;
+}
+
+.skill-description{
+    color: #c50000;
+}
+/* Resume Section Styles */
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 800;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-title{
+    color: #757575;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.institute,.resume-description{
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.Download-CV{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    background-color: antiquewhite;
+    margin-top: 100px;
+    padding: 130px 230px;
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+}
+.social-icon img{
+    width: 10%;
+    
+}
+.social-icon a{
+    margin-right: 60px;
+    display: inline;
+    
+}
+#fb{
+    padding-left: 67px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: azure;
+    border: 0;
+    width: 100%;
+}
